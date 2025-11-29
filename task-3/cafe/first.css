@@ -1,0 +1,38 @@
+.div1 .center{
+    color: white;
+    background-color: black;
+    width: fit-content;
+    margin: auto;
+}
+.div2 .center{
+    color: white;
+    background-color: black;
+    width: fit-content;
+    margin: auto;
+}
+.div3 .h3{
+    color: white;
+    background-color: black;
+    width: fit-content;
+    margin: auto;
+}
+.div6 .p{
+    color: white;
+    background-color: black;
+    width: fit-content;
+    margin: auto;
+}
+.div7 .p .b{
+    color: white;
+    background-color: black;
+    width: fit-content;
+    margin: auto;
+}
+.head{
+    color: white;
+    background-color: rgb(236, 227, 227);
+    width: fit-content;
+    margin: auto;
+    padding: 2px;
+}
+

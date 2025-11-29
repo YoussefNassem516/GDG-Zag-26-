@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name"></label>Name(Text)</label>
+            <input type="text" name="username" id="name">
+        </fieldset>
+        <fieldset>
+            <legend>Contact & Security</legend>
+            <label for="em">Email</label>
+            <input type="email" name="email" id="em">
+            <br>
+            <br>
+            <label for="pass">Password</label>
+            <input type="password" name="password" id="pass">
+        </fieldset>
+        <fieldset>
+            <legend>Preference</legend>
+            <label for="col">Fav Color</label>
+            <input type="color" name="color" id="col" value="#e11414">
+        </fieldset>
+        <fieldset>
+            <legend>Range & Option</legend>
+            <label for="ran">volume (Range 0-100):</label>
+            <input type="range" name="rang_vol" id="ran" min="0" max="100" value="50">
+            <br>
+            <p>Select your fav pet:</p>
+            <input type="radio" name="fav_pet" id="dog" value="dog">
+            <label for="dog">Dog</label>
+            <br>
+            <input type="radio" name="fav_pet" id="cat" value="cat">
+            <label for="cat">Cat</label>
+            <br>
+            <input type="radio" name="fav_pet" id="bird" value="bird">
+            <label for="bird">Bird</label>
+            <br>
+            <br>
+            <br>
+            <p>Intersts (Chek all that apply):</p>
+            <input type="checkbox" name="your music" id="coding" value="coding">
+            <label for="coding">Coding</label>
+            <br>
+            <input type="checkbox" name="your music" id="music"  value="music">
+            <label for="music">Music</label>
+            <br>
+            <input type="checkbox" name="your music" id="travel"  value="travel">
+            <label for="travel">Travel</label>
+        </fieldset>
+        <fieldset>
+            <legend>Selection</legend>
+            <label for="countries">Choose a country:</label>
+            <select name="country" id="countries">
+                <option value="egy">Egypt</option>
+                <option value="mor">Moroco</option>
+                <option value="qat">Qater</option>
+                <option value="amer">America</option>
+            </select>
+        </fieldset>
+        <input type="submit" value="enter">
+        
+    </form>
+
+</body>
+
+</html>
