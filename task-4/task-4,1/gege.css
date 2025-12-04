@@ -1,0 +1,113 @@
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f9ff;
+    color: #003366;
+}
+
+header {
+    background-color: #0078d4;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header p {
+    margin: 5px ;
+    font-size: 1em;
+}
+
+.div1 {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.sec1 {
+    background-color: white;
+    border: 1px solid #0078d4;
+    padding: 15px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.about-me h2 {
+    margin-top: 0;
+}
+
+.sec2 {
+    margin: 20px 0;
+}
+
+.skills ul {
+    list-style: disc inside;
+    padding-left: 20px;
+}
+
+.projects {
+    border: 1px dashed #0078d4;
+    padding: 20px;
+    background-color: white;
+}
+
+.projects h2 {
+    margin-top: 0;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+
+.card {
+    border: 1px solid #0078d4;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    background-color: #f9fdff;
+}
+
+.card img {
+    max-width: 80px;
+    height: auto;
+}
+
+.card h3 {
+    margin: 10px 0 5px;
+    font-size: 1.2em;
+}
+
+.card p {
+    font-size: 0.9em;
+    color: #333;
+}
+
+.github-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #0078d4;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.footer {
+    background-color: #0078d4;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.footer p {
+    margin: 5px 0;
+}
